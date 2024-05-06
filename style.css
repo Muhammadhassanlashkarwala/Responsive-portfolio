@@ -23,7 +23,7 @@ html{
     overflow-x: hidden;
 }
 body{
-    /* background: var(--bg-color); */
+    background: var(--bg-color);
     font-family: "poppins" , sans-serif;
     color: var(--text-color);
 }
@@ -114,4 +114,31 @@ display: none;
 
 section{
     min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background: var(--bg-color);
+}
+.home .home_content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+span{
+    color: var(--main-color);
+}
+.home_img{
+    border-radius: 50%;
+}
+.home_img img{
+    position: relative;
+    width: 32vw;
+/* border-radius: 310px; */
+border-radius: 50%;
+box-shadow: 0 0 25px var(--main-color);
+cursor: pointer;
 }

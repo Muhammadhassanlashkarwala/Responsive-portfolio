@@ -61,3 +61,10 @@ html::-webkit-scrollbar-thumb{
 .logo:hover{
 transform: scale(1.1);
 }
+.navbar a{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}

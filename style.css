@@ -79,3 +79,39 @@ display: none;
     color: var(--main-color);
     display: none;
 }
+@media (max-width: 995px) {
+ #menu-icon{
+    display: block;
+ }   
+ .navbar{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    border-bottom-left-radius: 2rem;
+    padding: 1rem 3%;
+    background: var(--second-bg-color);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    display: none;
+ }
+ .navbar.active {
+    display: block;
+ }
+ .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+ }
+.navbar:hover,
+.navbar.navbar.active{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid var(--main-color);
+}
+}
+
+section{
+    min-height: 100vh;
+}

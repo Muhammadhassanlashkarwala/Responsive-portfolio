@@ -58,6 +58,6 @@ html::-webkit-scrollbar-thumb{
     cursor: pointer;
     transition: 0.5s ease;
 }
-/* .logo:hover{
-
-} */
+.logo:hover{
+transform: scale(1.1);
+}

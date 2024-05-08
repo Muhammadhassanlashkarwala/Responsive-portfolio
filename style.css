@@ -141,7 +141,8 @@ span{
 }
 .home_img img{
     position: relative;
-    width: 30vw;
+    width: 29vw;
+    height: 60vh;
 /* border-radius: 310px; */
 border-radius: 50%;
 box-shadow: 0 0 25px var(--main-color);

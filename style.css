@@ -218,4 +218,42 @@ cursor: pointer;
     height: 100%;
     border-left: 3px solid var(--bg-color);
     right: -8;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+@keyframes cursor {
+    to {
+        border-left: 3px solid var(--main-color);
+    }
+}
+@keyframes words {
+    0%, 20% {
+       content: 'Web Developer' ;
+    }
+    21%, 40% {
+        content: 'Chatbot Developer' ;
+    }
+    41%, 60% {
+        content: 'Web Designer' ;
+    }
+    61%, 80% {
+        content: 'Photographer' ;
+    }
+    81%, 100% {
+        content: 'Youtuber' ;
+    }
+}
+@keyframes typing {
+    10%, 15%,
+    30%, 35%,
+    50%, 55%,
+    70%, 75%,
+    90%, 95% {
+        width : 0;
+    }
+    5%, 20%,
+    25%, 40%,
+    45%, 60%,
+   65% , 80%, 85% {
+    width: calc(100% + 8px);
+   }
 }

@@ -72,7 +72,8 @@ transform: scale(1.1);
 .navbar a:hover,
 .navbar a.active{
 color: var(--main-color);
-display: none;
+border-bottom: 3px solid var(--main-color);
+/* display: none; */
 }
 #menu-icon{
     font-size: 3.6rem;
@@ -104,8 +105,8 @@ display: none;
     font-size: 2rem;
     margin: 3rem 0;
  }
-.navbar:hover,
-.navbar.navbar.active{
+.navbar a:hover,
+.navbar a.active{
     padding: 1rem;
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid var(--main-color);
@@ -172,7 +173,7 @@ cursor: pointer;
     transition: 0.3s ease;
 }
 .social_icon a:hover{
- color: white;
+ color: black;
  transform: scale(1.3)translateY(-5px);
  background: var(--main-color);
  box-shadow: 0 0 25px var(--main-color);
@@ -189,4 +190,32 @@ letter-spacing: 0.1rem;
 font-weight: 600;
 transition: 0.3s ease;
 cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.03);
+    background: var(--main-color);
+    color: black;
+    box-shadow: 0 0 25px var(--main-color);
+}
+.typing_text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+.typing_text span{
+    position: relative;
+}
+.typing_text span::before{
+ content: 'Web & Chatbot Developer';
+ color: var(--main-color);
+ animation: words 20s infinite;
+}
+.typing_text span::after{
+    content: '';
+    color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right: -8;
 }

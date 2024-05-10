@@ -288,3 +288,30 @@ cursor: pointer;
         /* height: 35vh; */
      }
 }
+
+
+/* Services section */
+.services{
+    background: var(--second-bg-color);
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.service-box{
+background: var(--main-color);
+height: 250px;
+border-radius: 3rem ;
+cursor: pointer;
+transition: 0.3s ease;
+}
+.service-box:hover{
+    background: black;
+    color: var(--main-color);
+    transform: scale(1.03);
+}
+.service-box .service-info{
+    
+}

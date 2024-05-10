@@ -211,18 +211,18 @@ cursor: pointer;
  animation: words 20s infinite;
 }
 .typing_text span::after{
-    content: '';
+    content: '' ;
     color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid var(--bg-color);
-    right: -8;
+    right: -8px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 @keyframes cursor {
     to {
-        border-left: 3px solid var(--main-color);
+        border-left: 2px solid var(--main-color);
     }
 }
 @keyframes words {
@@ -253,7 +253,38 @@ cursor: pointer;
     5%, 20%,
     25%, 40%,
     45%, 60%,
-   65% , 80%, 85% {
+   65%, 80%, 85% {
     width: calc(100% + 8px);
    }
+}
+@media ( max-width:1000px) {
+    .home{
+        gap: 4rem;
+    }
+}
+@media ( max-width:995px) {
+    .home{
+       flex-direction: column;
+       margin: 5rem 4rem;
+    }
+    .home .home_content h3{
+   font-size: 2.5rem;
+    }
+    .home .home_content h1{
+        font-size: 5rem;
+         }
+         .home_img img{
+            width: 45vw;
+            height: 55vh;
+            margin-top: 2vw;
+         }
+}
+@media (max-width:740px) {
+    .home_img img{
+        width: 58vw;
+        height: 30vh;
+        margin-top: 4vw;
+
+        /* height: 35vh; */
+     }
 }

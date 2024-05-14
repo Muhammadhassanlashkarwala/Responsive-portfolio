@@ -143,7 +143,7 @@ span{
 .home_img img{
     position: relative;
     width: 29vw;
-    height: 60vh;
+    height: 59vh;
 /* border-radius: 310px; */
 border-radius: 50%;
 box-shadow: 0 0 25px var(--main-color);
@@ -294,9 +294,9 @@ cursor: pointer;
 .services{
     background: var(--second-bg-color);
 }
-.heading{
+/* .heading{
 
-}
+} */
 .services-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

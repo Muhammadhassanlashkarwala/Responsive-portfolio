@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <!-- Created Coding Zone -->
 <html lang="en">
@@ -8,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive-website</title>
     <link rel="stylesheet" href="style.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/lib.min.js" integrity="sha512-6wTCErhHy7pfhzPaqX9ivnMJLewRKwXmhE4SUuHZOpxWfaJaLLUWlpXDfCYFy0CJtVye04euxgVwCRU8B2CvGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
    
     <!-- import Font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -98,7 +96,7 @@
 class="flex gap-1 my-10 flex-wrap justify-center items-center mx-auto w-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%] ">
 
 
-<div class="mx-auto">
+<!-- <div class="mx-auto">
     <div class="text-[#f0f0e6] mb-2">
         <span class="text-xl font-medium">Html</span>
     </div>
@@ -107,7 +105,7 @@ class="flex gap-1 my-10 flex-wrap justify-center items-center mx-auto w-[100%] m
         <span
             class="w-[95%] after:content-[&quot;95%&quot;] absolute bg-[#337ab7] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0 before:absolute before:content-[&quot;&quot;] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 c"></span>
     </div>
-</div>
+</div> -->
 <!-- <section class="skills" id="skills">
     <h2 class="headings">Skills</h2>
     <div class="conatainer">
@@ -123,33 +121,98 @@ class="flex gap-1 my-10 flex-wrap justify-center items-center mx-auto w-[100%] m
     </div>
 </section> -->
   <!-- wow animation  -->
-<!-- 
-  <div class="card-group" style="display: flex; gap: 5; margin: 2px;">
-    <div class="card" style="width: 325px; border: 2px solid white; gap: 4;">
-      <img style="height: 100%; width: 300px;" src="./images/WhatsApp Image 2024-04-20 at 11.53.51 AM.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
+  <section class="container mx-auto my-12" id="Projects">
+    <h1 class="text-5xl leading-10q my-6">Projects</h1>
+    <div class="card-group gap-6 my-12 flex flex-wrap">
+        <div class="card ">
+            <img src="images/calculator.PNG" class="card-img-top h-50" alt="..."
+                class="img-fluid w-40 h-16 rounded d-block mb-4" />
+            <div class="card-body">
+                <h5 class="card-title text-3xl font-bold">Calculator</h5>
+                <p class="card-text text-xl">
+                    "Empower your daily calculations with my progressive web app
+                    calculator, designed for efficiency and accessibility."
+                </p>
+                <a href="https://muhammadhassanlashkarwala.github.io/Calculator/" target="_blank">
+                    <button class="btn_2">view</button>
+                    <!-- <button
+                        class="btn btn-primary btn-lg duration-[400ms] btn-block mt-4 bg-black-800 border-2 border-purple-900 hover:bg-gray-900 hover:border-gray-900">
+                        View
+                    </button> -->
+                </a>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary text-sm">Email: bhaihassan036@gmail.com
+                </small>
+            </div>
+        </div>
+        <!-- <div class="card">
+            <img src="Images/Project-2.png" class="card-img-top h-50" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title text-3xl font-bold">Counter Javascript</h5>
+                <p class="card-text text-xl">
+                    "Stay informed with my intuitive news progressive web app,
+                    delivering curated updates right at your fingertips."
+                </p>
+                <a href="https://news-app-flame-eta.vercel.app/"><button
+                        class="btn btn-primary btn-lg duration-[400ms] btn-block mt-4 bg-blue-800 border-2 border-gray-900 hover:bg-gray-900 hover:border-gray-900">
+                        View
+                    </button></a>
+                <a href="https://github.com/ALIRAZA4278/News-App"><button
+                        class="btn btn-primary btn-lg duration-[400ms] btn-block mt-4 bg-gray-900">
+                        Source Code
+                    </button></a>
+            </div>
+            <div class="card-footer text-xl">
+                <small class="text-body-secondary">Email: bhaihassan036@gmail.com
+                </small>
+            </div>
+        </div> -->
+        <div class="card">
+            <img src="images/pizza chatbot.PNG" class="card-img-top h-50" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title text-3xl font-bold">Pizza Chatbot</h5>
+                <p class="card-text text-xl">
+                    "Experience the ultimate pizza ordering convenience with our Dialogflow-powered chatbot, making
+                    every craving just a chat away!"
+                </p>
+                <a href="https://muhammadhassanlashkarwala.github.io/Ai-chatbot/"><button
+                        class="btn btn-primary btn-lg duration-[400ms] btn-block mt-4 bg-blue-800 border-2 border-gray-900 hover:bg-gray-900 hover:border-gray-900">
+                        View
+                    </button></a>
+          
+            </div>
+            <div class="card-footer text-xl">
+                <small class="text-body-secondary">Email: bhaihassan036@gmail.com
+                </small>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/weather app.PNG" class="card-img-top h-50" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title text-3xl font-bold">Weather App</h5>
+                <p class="card-text text-xl">
+                    "Plan your day with precision using my user-friendly weather
+                    progressive web app, providing real-time forecasts tailored to
+                    your location."
+                </p>
+                <a href="https://muhammadhassanlashkarwala.github.io/Weather-App-Javascript/"><button
+                        class="btn btn-primary btn-lg duration-[400ms] btn-block mt-4 bg-blue-800 border-2 border-gray-900 hover:bg-gray-900 hover:border-gray-900">
+                        View
+                    </button></a>
+          
+            </div>
+            <div class="card-footer text-xl">
+                <small class="text-body-secondary">Email: bhaihassan036@gmail.com
+                </small>
+            </div>
+        </div>
     </div>
-    <div class="card"style="width: 325px; border: 2px solid white; gap: 4;">
-      <img style="height: 100%; width: 300px;" src="./images/WhatsApp Image 2024-04-20 at 11.53.51 AM.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card"style="width: 325px; border: 2px solid white; gap: 4;">
-      <img style="height: 100%; width: 300px;" src="./images/WhatsApp Image 2024-04-20 at 11.53.51 AM.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div> -->
+</section>
+
+
+
 
 <script src="script.js"></script>
 <!-- V#<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

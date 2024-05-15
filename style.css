@@ -365,7 +365,7 @@ section{
     transition: 0.3s ease;
     cursor: pointer;
     }
-    .btn:hover{
+    .btn_2:hover{
         transform: scale(1.03);
         background: var(--main-color);
         color: black;

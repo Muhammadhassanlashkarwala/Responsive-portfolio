@@ -296,8 +296,8 @@ cursor: pointer;
     background: var(--second-bg-color);
 }
 .heading{
-font-size: 5rem;
-font-weight: 600;
+    font-size: 6rem;
+        font-weight: 500;
 margin-bottom: 3rem;
 align-items: center;
 text-align: center;
@@ -376,10 +376,32 @@ section{
         color: black;
         box-shadow: 0 0 25px var(--main-color);
     }
-    .heading_2{
+
+    /* skills section */
+.heading_2{
         font-size: 6rem;
         font-weight: 500;
         margin-top: 3rem;
-        /* align-items: center;
-        text-align: center; */
         }
+.skills{
+    background: var(--bg-color);
+}
+.skills .container{
+    background: var(--main-color);
+    color: var(--text-color) ;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 70%;
+margin: auto;
+margin-top: 2rem;
+
+}
+.skills .container .row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+.skills .container .bar{
+    
+}

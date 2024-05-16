@@ -389,7 +389,8 @@ section{
     background: var(--bg-color);
 }
 .skills .container{
-    background: var(--main-color);
+    /* background: var(--main-color);*/
+    background:  #7c4bb75d;
     color: var(--text-color) ;
     border-radius: 1rem;
     padding: 2rem;
@@ -398,12 +399,22 @@ margin: auto;
 margin-top: 2rem;
 
 }
+.info img{
+    background: var(--bg-color);
+    border-radius: 50%;
+    border: 2px solid var(--bg-color);
+}
 .skills .container .row{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     flex-wrap: wrap;
     gap: 1.8rem;
 }
-/* .skills .container .bar{
-    
-} */
+.skills .container .bar{
+ margin-bottom: 15px;
+ padding: 10px;
+ border-radius: 1rem;
+ background: var(--main-color);
+ box-shadow: 0 4px 10px var(--bg-color);
+ transition: 0.3s ease;   
+}

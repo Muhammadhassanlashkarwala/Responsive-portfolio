@@ -441,6 +441,37 @@ margin-top: 2rem;
     margin-bottom: 1rem;
     /* color:  #7c4bb75d; */
 }
+.skills .container .bar_3{
+    margin-bottom: 15px;
+    padding: 0px 30px;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    /* background: var(--main-color);
+    box-shadow: 0 4px 10px var(--bg-color); */
+    transition: 0.3s ease;  
+    cursor: pointer; 
+   }
+   .skills .container .bar_3:hover{
+    box-shadow: 0 4px 10px var(--main-color);
+    transform: scale(1.03);
+}
+.skills .container .bar_3 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.skills .container .bar_3 .info span{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.4rem;
+    /* margin-left: 0.5rem; */
+    /* margin-bottom: 0.5rem; */
+    /* color:  #7c4bb75d; */
+}
 .skills .container .bar_2{
     margin-bottom: 15px;
     padding: 0px 17px;
@@ -465,8 +496,11 @@ margin-top: 2rem;
 .skills .container .bar_2 .info span{
     font-size: 1.5rem;
     font-weight: 500;
-    /* margin-left: 0.5rem; */
-    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.4rem;
+    /* margin-left: 0.5rem;
+    margin-bottom: 1rem; */
     /* color:  #7c4bb75d; */
 }
 /* .css_image{

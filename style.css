@@ -363,6 +363,7 @@ section{
     display: inline-block;
     padding: 1rem 3rem;
     margin-top: 2rem;
+    margin-left: 2rem;
     background: var(--bg-color);
     border-radius: 4rem;
     font-size: 1.6rem;
@@ -712,18 +713,21 @@ text-align: center;
     gap: 2.5rem;
 }
 .projects-container img{
-    height: 250px;
-    
+    height: 260px;
+    border-radius: 3rem ;
+    box-sizing: border-box;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
-/* .projects-box{
+.projects-box{
     background: black;
-height: 300px;
+height: 430px;
 box-sizing: border-box;
 border-radius: 3rem ;
 cursor: pointer;
-background: var(--main-color);
+/* background: var(--main-color); */
 transition: 0.3s ease;
-} */
+}
 /* 
 .projects-box:hover{
     background: black;

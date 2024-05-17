@@ -276,10 +276,10 @@ cursor: pointer;
         font-size: 5rem;
          }
          .home_img img{
-            width: 47vw;
+            width: 45vw;
             height: 55vh;
             border-radius: 50%;
-            margin-top: -2rem;
+            /* margin-top: -2rem; */
             /* margin-top: -2vw; */
          }
 }
@@ -773,7 +773,7 @@ transition: 0.3s ease;
             margin-bottom: 3rem ;
      }
      .projects-container{
-        /* grid-template-columns: repeat(1, 1fr); */
+        grid-template-columns: repeat(1, 1fr);
      }
     }
 /* .projects-box .projects-info{

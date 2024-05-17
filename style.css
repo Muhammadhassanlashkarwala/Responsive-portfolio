@@ -726,6 +726,13 @@ text-align: center;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+.projects-container .third{
+    height: 170px;
+    border-radius: 3rem ;
+    box-sizing: border-box;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
 .projects-box{
     background: black;
 height: 430px;
@@ -745,10 +752,10 @@ transition: 0.3s ease;
 .projects-box .projects-info{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     max-height: 430px;
-    justify-content: center;
-    align-items: center;
+  align-items: center;
+  justify-content: center;
     padding: 5em;
 }
 /* .projects-box .projects-info{

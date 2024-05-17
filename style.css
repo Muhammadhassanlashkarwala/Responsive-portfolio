@@ -568,6 +568,20 @@ margin-top: 2rem;
     margin-bottom: 1rem; */
     /* color:  #7c4bb75d; */
 }
+.skills .container .bar_6{
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    /* background: var(--main-color);
+    box-shadow: 0 4px 10px var(--bg-color); */
+    transition: 0.3s ease;  
+    cursor: pointer; 
+   }
+   .skills .container .bar_6:hover{
+    box-shadow: 0 4px 10px var(--main-color);
+    transform: scale(1.03);
+}
 /* .css_image{
     background: var(--bg-color);
     border-radius: 50%;

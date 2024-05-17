@@ -758,6 +758,23 @@ transition: 0.3s ease;
   justify-content: center;
     padding: 5em;
 }
+
+@media (max-width: 991px) {
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    .projects{
+        padding-bottom: 7rem;
+    }
+    }
+    @media (max-width: 895px) {
+        .projects h2{
+            margin-bottom: 3rem ;
+     }
+     .projects-container{
+        grid-template-columns: repeat(1, 1fr);
+     }
+    }
 /* .projects-box .projects-info{
     display: flex;
     flex-direction: column;

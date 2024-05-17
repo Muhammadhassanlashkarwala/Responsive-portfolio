@@ -361,7 +361,8 @@ section{
 }
 .btn_2{
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
     background: var(--bg-color);
     border-radius: 4rem;
     font-size: 1.6rem;
@@ -710,29 +711,36 @@ text-align: center;
     align-items: center;
     gap: 2.5rem;
 }
-.projects-box{
+.projects-container img{
+    height: 250px;
+    
+}
+/* .projects-box{
     background: black;
-/* background: var(--main-color); */
 height: 300px;
+box-sizing: border-box;
 border-radius: 3rem ;
 cursor: pointer;
+background: var(--main-color);
 transition: 0.3s ease;
-}
+} */
+/* 
 .projects-box:hover{
     background: black;
     color: var(--main-color);
     transform: scale(1.03);
-    /* border: 1px solid var(--main-color); */
-}
-.projects-box .projects-info{
+    border: 1px solid var(--main-color);
+} */
+/* .projects-box .projects-info{
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
+    max-height: 660px;
+    max-width: 700px;
     justify-content: center;
     align-items: center;
     padding: 5em;
-}
+} */
 
 /* .css_image{
     background: var(--bg-color);

@@ -403,7 +403,7 @@ section{
     color: var(--text-color) ;
     border-radius: 1rem;
     padding: 2rem;
-    width: 75%;
+    width: 70%;
 margin: auto;
 margin-top: 2rem;
 
@@ -445,7 +445,7 @@ margin-top: 2rem;
     font-weight: 500;
     /* margin-left: 0.5rem; */
     /* margin-bottom: 1rem; */
-    /* margin-top: 1rem; */
+    margin-top: 1.5rem;
     /* color:  #7c4bb75d; */
 }
 .skills .container .bar_3{
@@ -467,7 +467,7 @@ margin-top: 2rem;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 .skills .container .bar_3 .info span{
     font-size: 2rem;

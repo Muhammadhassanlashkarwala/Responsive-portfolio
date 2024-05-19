@@ -986,5 +986,30 @@ padding: 0 15px;
         text-align: center;
     }
 
-    
+    @media (max-width:1285px) {
+        html{
+            font-size: 55%;
+        }
+        .services-container{
+padding-bottom: 7rem;
+grid-template-columns: repeat(2, 1fr);
+margin: 0 5rem;
+        }
+    }
+
+    @media (max-width:991px) {
+header{
+    padding: 2rem 3%;
+}
+section{
+    padding: 10rem 3% 2rem;
+}
+.services{
+    padding-bottom: 7rem;
+}
+.footer{
+    padding: 2rem 3%;
+}
+    }
+
 /* 600 se 1160 */

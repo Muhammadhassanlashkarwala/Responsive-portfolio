@@ -976,6 +976,15 @@ text-align: center;
     }
 
     .footer ul li{
-        
+display: inline-block;
+padding: 0 15px;
     }
+    .footer .copyright{
+        margin-top: 50px;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+    }
+
+    
 /* 600 se 1160 */

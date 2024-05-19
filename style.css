@@ -965,5 +965,17 @@ margin-bottom: 0;
 text-align: center;
     }
 
+    .footer ul li a{
+        color: black;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s ease;
 
+    }
+    .footer ul li a:hover{
+        border-bottom: 3px solid black;
+    }
+
+    .footer ul li{
+        
+    }
 /* 600 se 1160 */

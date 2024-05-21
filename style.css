@@ -360,6 +360,11 @@ section{
     grid-template-columns: repeat(1, 1fr);
  }
 }
+@media (max-width: 380px){
+    .service-info p{
+        font-size: 1.4rem;
+    }
+}
 .btn_2{
     display: inline-block;
     padding: 1rem 3rem;
@@ -998,7 +1003,7 @@ margin: 0 5rem;
     }
 
     @media (max-width:991px) {
-header{
+.header{
     padding: 2rem 3%;
 }
 section{

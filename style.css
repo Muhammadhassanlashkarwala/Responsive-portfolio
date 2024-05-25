@@ -287,7 +287,7 @@ cursor: pointer;
     .home_img img{
         width: 58vw;
         height: 30vh;
-        margin-top: 4vw;
+        margin-top: -4vw;
 
         /* height: 35vh; */
      }

@@ -51,6 +51,9 @@ html::-webkit-scrollbar-thumb{
  align-items: center;
  z-index: 100;
 }
+.header span{
+    color: white;
+}
 .logo{
     font-size: 3rem;
     color: var(--main-color);

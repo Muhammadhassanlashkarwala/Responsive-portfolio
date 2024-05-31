@@ -295,6 +295,15 @@ cursor: pointer;
         /* height: 35vh; */
      }
 }
+@media (max-width:360px) {
+    .home_img img{
+        width: 58vw;
+        height: 30vh;
+        margin-top: -3vw;
+
+        /* height: 35vh; */
+     }
+}
 
 
 /* Services section */

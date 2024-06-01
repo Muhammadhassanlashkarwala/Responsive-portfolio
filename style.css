@@ -160,7 +160,7 @@ cursor: pointer;
     filter: drop-shadow(0 0 25px var(--main-color));
 }
 .home_content p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 .social_icon a{
@@ -295,7 +295,7 @@ cursor: pointer;
         /* height: 35vh; */
      }
 }
-@media (max-width:360px) {
+/* @media (max-width:360px) {
     .home_img img{
         width: 58vw;
         height: 30vh;
@@ -303,7 +303,7 @@ cursor: pointer;
 
         /* height: 35vh; */
      }
-}
+} */
 
 
 /* Services section */

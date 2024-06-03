@@ -290,6 +290,7 @@ cursor: pointer;
     .home_img img{
         width: 58vw;
         height: 30vh;
+        border-radius: 50%;
         margin-top: -3vw;
 
         /* height: 35vh; */

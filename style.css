@@ -83,38 +83,7 @@ border-bottom: 3px solid var(--main-color);
     color: var(--main-color);
     display: none;
 }
-@media (max-width: 995px) {
- #menu-icon{
-    display: block;
- }   
- .navbar{
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 40%;
-    border-left: 3px solid var(--main-color);
-    border-bottom: 3px solid var(--main-color);
-    border-bottom-left-radius: 2rem;
-    padding: 1rem 3%;
-    background: var(--second-bg-color);
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-    display: none;
- }
- .navbar.active {
-    display: block;
- }
- .navbar a{
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
- }
-.navbar a:hover,
-.navbar a.active{
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border-bottom: 0.5rem solid var(--main-color);
-}
-}
+
 
 section{
     min-height: 100vh;
@@ -145,12 +114,11 @@ span{
 }
 .home_img img{
     position: relative;
-    /* width: 89vw; */
-    /* height: 50vh; */
-    width: 1410px;
-    height: 420px;
-/* border-radius: 310px; */
-border-radius: 50%;
+    width: 102vw;
+    height: 60vh;
+    /* width: 1410px;
+    height: 420px; */
+    border-radius: 50%;
 box-shadow: 0 0 25px var(--main-color);
 cursor: pointer;
 }
@@ -262,6 +230,182 @@ cursor: pointer;
     width: calc(100% + 8px);
    }
 }
+
+@media (max-width: 995px) {
+    #menu-icon{
+       display: block;
+    }   
+    .navbar{
+       position: absolute;
+       top: 100%;
+       right: 0;
+       width: 40%;
+       border-left: 3px solid var(--main-color);
+       border-bottom: 3px solid var(--main-color);
+       border-bottom-left-radius: 2rem;
+       padding: 1rem 3%;
+       background: var(--second-bg-color);
+       border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+       display: none;
+    }
+    .navbar.active {
+       display: block;
+    }
+    .navbar a{
+       display: block;
+       font-size: 2rem;
+       margin: 3rem 0;
+    }
+   .navbar a:hover,
+   .navbar a.active{
+       padding: 1rem;
+       border-radius: 0.5rem;
+       border-bottom: 0.5rem solid var(--main-color);
+   }
+   
+   .home_img img {
+    width: 185vw;
+        height: 58vh;
+    border-radius: 50%;
+}
+   }
+
+
+   @media screen and (max-width: 768px) {
+    .header {
+        padding: 3rem 5%;
+    }
+
+    .navbar a {
+        margin-left: 2rem;
+    }
+
+    .home {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .home .home_content h1 {
+        font-size: 4.5rem;
+    }
+
+    .home_content h3 {
+        font-size: 3rem;
+    }
+
+    .home_img img {
+        width: 52vw;
+            height: 38vh;
+        border-radius: 50%;
+    }
+
+    .social_icon a {
+        margin: 2rem 1rem 2rem 0;
+    }
+
+    .typing_text {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .home .home_content h1 {
+        font-size: 3.5rem;
+    }
+
+    .home_content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home_img img {
+        width: 48vw;
+        height: 28vh;
+        border-radius: 50%;
+    }
+
+
+    @media only screen and (max-width: 420px) {
+        .header {
+            padding: 2rem 5%;
+        }
+    
+        .logo {
+            font-size: 2.5rem;
+        }
+    
+        .navbar a {
+            margin-left: 1rem;
+            font-size: 1.4rem;
+        }
+    
+        .home .home_content h1 {
+            font-size: 3.5rem;
+        }
+    
+        .home_content h3 {
+            font-size: 2.5rem;
+        }
+    
+        .home_img img {
+            width: 52vw;
+            height: 28vh;
+            border-radius: 50%;
+        }
+
+    .social_icon a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        margin: 1.5rem 1rem 1.5rem 0;
+    }
+
+    .typing_text {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .home .home_content h1 {
+        font-size: 3.5rem;
+    }
+
+    .home_content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home_img img {
+        width: 44vw;
+        height: 20vh;
+        border-radius: 50%;
+    }
+
+/* 
 @media ( max-width:1000px) {
     .home{
         gap: 4rem;
@@ -292,7 +436,6 @@ cursor: pointer;
         height: 30vh;
         border-radius: 50%;
         margin-top: -3vw;
-
         /* height: 35vh; */
      }
 }
@@ -302,7 +445,7 @@ cursor: pointer;
         height: 30vh;
         margin-top: -3vw;
      }
-} */
+} */ */
 
 
 /* Services section */

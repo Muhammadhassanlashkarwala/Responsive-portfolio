@@ -116,8 +116,6 @@ span{
     position: relative;
     width: 102vw;
     height: 60vh;
-    /* width: 1410px;
-    height: 420px; */
     border-radius: 50%;
 box-shadow: 0 0 25px var(--main-color);
 cursor: pointer;
@@ -405,6 +403,15 @@ cursor: pointer;
         border-radius: 50%;
     }
 
+
+
+    @media (min-width:988px)  and (max-width:1245px){
+      .home_img img {
+        width: 102vw;
+        height: 40vh;
+        border-radius: 50%;
+      }
+    }
 /* 
 @media ( max-width:1000px) {
     .home{

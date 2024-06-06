@@ -184,7 +184,7 @@ cursor: pointer;
 .typing_text span::before{
  content: 'Web & Chatbot Developer';
  color: var(--main-color);
- animation: words 20s infinite;
+ animation: words 15s infinite;
 }
 .typing_text span::after{
     content: '' ;
@@ -192,15 +192,15 @@ cursor: pointer;
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
-    border-left: 3px solid var(--bg-color);
+    /* border-left: 3px solid var(--bg-color); */
     right: -8px;
-    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+    animation: cursor 0.6s infinite, typing 15s steps(14) infinite;
 }
-@keyframes cursor {
+/* @keyframes cursor {
     to {
         border-left: 2px solid var(--main-color);
     }
-}
+} */
 @keyframes words {
     0%, 20% {
        content: 'Web Developer' ;
@@ -438,7 +438,7 @@ cursor: pointer;
             border-radius: 50%;
             /* margin-top: -2rem; */
             /* margin-top: -2vw; */
-         }
+          }
 }
 @media (max-width:740px) {
     /* .home_img img{
@@ -455,7 +455,7 @@ cursor: pointer;
         height: 30vh;
         margin-top: -3vw;
      }
-} */ */
+} */  
 
 
 /* Services section */
@@ -1163,7 +1163,7 @@ padding: 0 15px;
         text-align: center;
     }
 
-    /* @media (max-width:1285px) {
+    @media (max-width:1285px) {
         html{
             font-size: 55%;
         }
@@ -1196,5 +1196,5 @@ section{
         .services-container{
             grid-template-columns: repeat(1, 1fr);
         }
-    } */
+    }
 /* 600 se 1160 */

@@ -507,6 +507,7 @@ transition: 0.3s ease;
     font-weight: 400;
     max-height: 100px;
     margin: auto;
+    overflow: hidden;
 }
 @media (max-width: 991px) {
 section{
@@ -572,7 +573,7 @@ section{
     color: var(--text-color) ;
     border-radius: 1rem;
     padding: 2rem;
-    /* width: 70%; */
+    width: 70%;
 margin: auto;
 margin-top: 2rem;
 display: flex;

@@ -3,7 +3,7 @@ let navBar = document.querySelector(".navbar");
 
 
 let sections = document.querySelector("section");
-let navLinks = document.querySelector("header nav ul li a");
+let navLinks = document.querySelector("header nav a");
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -15,7 +15,7 @@ window.onscroll = () => {
         if (top >= offset && top < offset + height) {
             navLinks.forEach(links => {
       links.classList.remove("active");
-      document.querySelector("header nav ul li a[href*=" + id + " ]" ).classList.add(active)
+      document.querySelector("header nav ul li a[href*=" + id + " ]" ).classList.add("active")
             })
         }
     })

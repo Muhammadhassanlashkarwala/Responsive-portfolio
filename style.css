@@ -63,6 +63,7 @@ html::-webkit-scrollbar-thumb{
 }
 .logo:hover{
 transform: scale(1.1);
+box-shadow: 0 0 25px var(--main-color);
 }
 .navbar a{
     font-size: 1.8rem;
@@ -76,7 +77,6 @@ transform: scale(1.1);
 .navbar a.active{
 color: var(--main-color);
 border-bottom: 3px solid var(--main-color);
-/* display: none; */
 }
 #menu-icon{
     font-size: 3.6rem;

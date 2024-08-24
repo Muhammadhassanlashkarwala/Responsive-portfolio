@@ -118,7 +118,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-width: 410px;
+    min-width: 420px;
     height: 412px;
     border-radius: 50%;
 box-shadow: 0 0 25px var(--main-color);

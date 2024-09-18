@@ -1,7 +1,6 @@
+// Menu Section
 let menuIcon = document.querySelector("#menu-icon");
 let navBar = document.querySelector(".navbar");
-
-
 let sections = document.querySelector("section");
 let navLinks = document.querySelector("header nav a");
 

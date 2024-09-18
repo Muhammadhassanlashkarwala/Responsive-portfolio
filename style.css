@@ -39,6 +39,7 @@ html::-webkit-scrollbar-thumb{
     background: var(--main-color);
 }
 
+/* Header */
 .header{
     position: fixed;
     top: 0;
@@ -90,6 +91,8 @@ section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
+
+/* Home */
 .home{
     display: flex;
     justify-content: center;
@@ -401,7 +404,7 @@ cursor: pointer;
     }
 }
 
-/* Services section */
+/* Service */
 .services{
     background: var(--second-bg-color);
 }
@@ -499,8 +502,7 @@ section{
         box-shadow: 0 0 25px var(--main-color);
     }
 
-    /* skills section */
-
+/* Skills */
 .skills{
     background: var(--bg-color);
 }
@@ -510,17 +512,15 @@ section{
     font-weight: 500;
     text-align: center;
     align-items: center;
-    /* margin-top: 3rem; */
     margin-bottom: 4rem;
     }
 
 .skills .container{
-    /* background: var(--main-color);*/
-    background:  #7c4bb75d;
-    color: var(--text-color) ;
-    border-radius: 1rem;
-    padding: 2rem;
-    width: 70%;
+background:  #7c4bb75d;
+color: var(--text-color) ;
+border-radius: 1rem;
+padding: 2rem;
+width: 70%;
 margin: auto;
 margin-top: 2rem;
 display: flex;
@@ -530,15 +530,15 @@ flex-wrap: wrap;
 
 }
 .info img{
-    background: var(--bg-color);
-    border-radius: 50%;
-    border: 2px solid var(--bg-color);
+background: var(--bg-color);
+border-radius: 50%;
+border: 2px solid var(--bg-color);
 }
 .skills .container .row{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    flex-wrap: wrap;
-    gap: 1.8rem;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+flex-wrap: wrap;
+gap: 1.8rem;
 }
 .skills .container .bar{
  margin-bottom: 15px;
@@ -551,19 +551,19 @@ flex-wrap: wrap;
  height: 180px;
 }
 .skills .container .bar:hover{
-    box-shadow: 0 4px 10px var(--main-color);
-    transform: scale(1.03);
+box-shadow: 0 4px 10px var(--main-color);
+transform: scale(1.03);
 }
 .skills .container .bar .info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+margin-top: 1rem;
 }
 .skills .container .bar .info img{
-    width: 100px;
-    height: 100px;
+ width: 100px;
+ height: 100px;
 }
 .skills .container .bar .info span{
     font-size: 2rem;
@@ -727,8 +727,6 @@ flex-wrap: wrap;
     align-items: center;
     padding-top: 3rem;
 }
-
-
 .skills .container .bar_9{
     margin-bottom: 15px;
     padding: 0px 17px;
@@ -774,11 +772,7 @@ flex-wrap: wrap;
     }
 }
 
-
-
-
-/* project section */
-
+/* project */
 .projects{
     background: var(--second-bg-color);
 }
@@ -927,27 +921,24 @@ transition: 0.3s ease;
         grid-template-columns: repeat(1, 1fr);
      }
     }
-/* contact Section  */
 
+/* Contact */
 .contact{
     margin-bottom: 3rem;
     color: white;
 
 }
-
 .contact form{
     max-width: 70rem;
     margin: 1rem auto;
     margin-bottom: 3rem;
     text-align: center;
 }
-
 .contact form .input-box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .contact form .input-box input, 
 .contact form textarea{
  width: 100%;
@@ -960,8 +951,6 @@ transition: 0.3s ease;
  margin: 1rem 0;
  resize: none;
 }
-
-
 .contact form .btn_last{
     display: inline-block;
     padding: 1rem 3rem;
@@ -983,10 +972,7 @@ transition: 0.3s ease;
         box-shadow: 0 0 25px var(--main-color);
     }
 
-
-
-    /* Footer section */
-
+ /* Footer */
     .footer{
         position: relative;
         bottom: 0;
@@ -994,13 +980,11 @@ transition: 0.3s ease;
         padding: 40px 0;
         background: var(--main-color);
     }
-
     .footer .social{
         text-align: center;
         padding-bottom: 25px;
         color: black;
     }
-
     .footer .social a{
        font-size: 25px;
        color: black;
@@ -1018,7 +1002,6 @@ transition: 0.3s ease;
         color: var(--main-color);
         transform: scale(1.2)translateY(-5px);
     }
-
     .footer ul{
 margin: 0;
 padding: 0;
@@ -1027,17 +1010,14 @@ line-height: 1.8;
 margin-bottom: 0;
 text-align: center;
     }
-
     .footer ul li a{
         color: black;
         border-bottom: 3px solid transparent;
         transition: 0.3s ease;
-
     }
     .footer ul li a:hover{
         border-bottom: 3px solid black;
     }
-
     .footer ul li{
 display: inline-block;
 padding: 0 15px;
@@ -1048,7 +1028,6 @@ padding: 0 15px;
         color: black;
         text-align: center;
     }
-
     @media (max-width:1285px) {
         html{
             font-size: 55%;
@@ -1059,7 +1038,6 @@ grid-template-columns: repeat(1, 1fr);
 margin: 0 5rem;
         }
     }
-
     @media (max-width:991px) {
 .header{
     padding: 2rem 3%;

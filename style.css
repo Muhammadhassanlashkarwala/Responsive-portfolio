@@ -11,7 +11,6 @@
     font-family: "poppins" , sans-serif;
 }
 
-
 :root{
     --bg-color: #000000;
     --second-bg-color: #161616;
@@ -85,7 +84,6 @@ border-bottom: 3px solid var(--main-color);
     color: var(--main-color);
     display: none;
 }
-
 
 section{
     min-height: 100vh;
@@ -269,7 +267,6 @@ cursor: pointer;
     border-radius: 50%;
 }
    }
-
 
    @media screen and (max-width: 1052px) {
     .header {
@@ -699,7 +696,6 @@ margin-top: 1rem;
     font-weight: 500;
     padding-bottom: 0.5rem;
 }
-
 
 .skills .container .bar_8{
     margin-bottom: 15px;
